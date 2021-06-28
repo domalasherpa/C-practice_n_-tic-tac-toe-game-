@@ -1,2 +1,1 @@
-# Bootcamp
-//contains the projects done in 4 day bootcamp
+#This repsitory will contain some of the basic C programs .
