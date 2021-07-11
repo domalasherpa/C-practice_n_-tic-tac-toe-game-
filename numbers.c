@@ -35,27 +35,27 @@ int main(){
             break;
 
         case 2:
-        	system("cls");
+       	    system("cls");
             Evennumbers();
             break;
         
         case 3:
-        	system("cls");
+            system("cls");
             Oddnumbers();
             break;
 
         case 4:
-        	system("cls");
+            system("cls");
             Fibonacci();
             break;
         
         case 5:
-        	system("cls");
+            system("cls");
             Palindrome();
             break;
         
         case 6:
-        	system("cls");
+            system("cls");
             Armstrong();
             break;
 
@@ -208,7 +208,7 @@ int Armstrong(){
         printf("%d is not an Armstrong number", temp);
     }
 
-}
+ }
 
 }
 
