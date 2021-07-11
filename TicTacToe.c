@@ -67,11 +67,11 @@ void game(){
 			printf("\n\t\t\t\tPLayer 1 (COMPUTER)  : 'x'\n\t\t\t\tPlayer 2 (HUMAN)     : 'O'\n\n\n\n");
 		}
 
-    	printf("\t\t\t\t\t  %c  |  %c  |  %c\n", position[0], position[1], position[2]);
-    	printf("\t\t\t\t\t-----+-----+-----\n");
-     	printf("\t\t\t\t\t  %c  |  %c  |  %c\n", position[3], position[4], position[5]);
-    	printf("\t\t\t\t\t-----+-----+-----\n");   			
-    	printf("\t\t\t\t\t  %c  |  %c  |  %c\n", position[6], position[7], position[8]);
+    		printf("\t\t\t\t\t  %c  |  %c  |  %c\n", position[0], position[1], position[2]);
+    		printf("\t\t\t\t\t-----+-----+-----\n");
+     		printf("\t\t\t\t\t  %c  |  %c  |  %c\n", position[3], position[4], position[5]);
+    		printf("\t\t\t\t\t-----+-----+-----\n");   			
+    		printf("\t\t\t\t\t  %c  |  %c  |  %c\n", position[6], position[7], position[8]);
     		
 		if(count % 2 == 0){
 			player = 1;
