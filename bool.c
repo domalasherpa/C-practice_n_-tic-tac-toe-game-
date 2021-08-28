@@ -28,7 +28,7 @@ bool valid_traingle(float l, float b, float h)
 	{
 	  return 1;	
     }
-}git 
+}
 
 
 	

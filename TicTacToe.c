@@ -15,34 +15,34 @@ void manual();
 int main(){
     
 	printf("\n\n\n\n");
-    printf("\t\t\t\t\t\t****   TIC TAC-TOE   ****");
-    printf("\n\n\n\t\t\t\t PLayer Options: ");
-    printf("\n\n\n\t\t\t\t\t  1. 2-player\t\t 2. Computer");
-	printf("\n\n\n\t\t\t\t\t  3. Manual  \t\t 4. Exit");
-    printf("\n\n\n\t\t\t\t Enter your choice: ");
-    scanf("%d", &choice);    
+	printf("\t\t\t\t\t\t****   TIC TAC-TOE   ****");
+        printf("\n\n\n\t\t\t\t PLayer Options: ");
+    	printf("\n\n\n\t\t\t\t\t  1. 2-player\t\t 2. Computer");
+    	printf("\n\n\n\t\t\t\t\t  3. Manual  \t\t 4. Exit");
+    	printf("\n\n\n\t\t\t\t Enter your choice: ");
+    	scanf("%d", &choice);    
    
-    switch(choice){
+    	switch(choice){
 
-        case 1:
-        	system("cls");
-            game();
-            break;
+       		case 1:
+            		system("cls");
+            		game();
+            		break;
 
-        case 2:
+        	case 2:
 			system("cls");
 			game();     
-            break;
+            		break;
         
-        case 3: 
-        	system("cls");
-        	manual();
-        	break;
+        	case 3: 
+        		system("cls");
+        		manual();
+        		break;
 
-        case 4: 
-        	system("cls");
-        	printf("\n\n\n\n\a\t\t\t\tSee you again!!!\n\n\n\n");
-        	exit(0);
+        	case 4: 
+        		system("cls");
+        		printf("\n\n\n\n\a\t\t\t\tSee you again!!!\n\n\n\n");
+        		exit(0);
         
 		default:
 			printf("\a\n\t\t\t\t Invalid Choice!!!");
@@ -68,11 +68,11 @@ void game(){
 			printf("\n\t\t\t\tPLayer 1 (COMPUTER)  : 'x'\n\t\t\t\tPlayer 2 (HUMAN)     : 'O'\n\n\n\n");
 		}
 
-    	printf("\t\t\t\t\t  %c  |  %c  |  %c\n", position[0], position[1], position[2]);
-    	printf("\t\t\t\t\t-----+-----+-----\n");
-     	printf("\t\t\t\t\t  %c  |  %c  |  %c\n", position[3], position[4], position[5]);
-    	printf("\t\t\t\t\t-----+-----+-----\n");   			
-    	printf("\t\t\t\t\t  %c  |  %c  |  %c\n", position[6], position[7], position[8]);
+    		printf("\t\t\t\t\t  %c  |  %c  |  %c\n", position[0], position[1], position[2]);
+    		printf("\t\t\t\t\t-----+-----+-----\n");
+     		printf("\t\t\t\t\t  %c  |  %c  |  %c\n", position[3], position[4], position[5]);
+    		printf("\t\t\t\t\t-----+-----+-----\n");   			
+    		printf("\t\t\t\t\t  %c  |  %c  |  %c\n", position[6], position[7], position[8]);
     		
 		if(count % 2 == 0){
 			player = 1;
