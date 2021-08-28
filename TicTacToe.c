@@ -45,8 +45,9 @@ int main(){
         	exit(0);
         
 		default:
-			printf("\a\t\t\t\tYou can only choose 1 or 2");
-			break;
+			printf("\a\n\t\t\t\t Invalid Choice!!!");
+			status();
+			
     }
     return 0;
 }
@@ -103,10 +104,10 @@ void game(){
 					}
 				}
 			}
-				else{
-					printf("\n\n\n\n\t\t\t\tYour move Player %d: ", player);
-					scanf("%d", &co_ord);
-				}
+			else{
+				printf("\n\n\n\n\t\t\t\tYour move Player %d: ", player);
+				scanf("%d", &co_ord);
+			}
 		}
 		//Input if the choice of the user is 1 i.e. 2-player
 		else {
@@ -130,7 +131,7 @@ void game(){
 		//terminates the program in the middle of the game.
 		if(co_ord == 0){
 			system("cls");
-			printf("\a\n\t\t\t\tGoodbye!!!");
+			printf("\a\n\t\t\t\tGoodbye\n\n!!!");
 			exit(0);
 		}
 				
@@ -202,8 +203,8 @@ void status(){
 	count = 0;
 	choice = 0;
 	
-	printf("\n\n\t\t\t\tDo you want to continue ?\n");
-	printf("\n\t\t\t\tEnter '1' to continue or '0' to quit: ");
+	printf("\n\n\t\t\t\t Do you want to continue ?\n");
+	printf("\n\t\t\t\t Enter '1' to continue or '0' to quit: ");
 	scanf("%d", &status);
 		
 	if(status == 1){
